@@ -17,6 +17,8 @@ int main() {
     assert(size(37) == 'S');
     assert(size(40) == 'M');
     assert(size(43) == 'L');
+    assert(size(38) == 'S');//assuming 38 as small
+    assert(suze(42) == 'L');//assuming 42 as Large
     std::cout << "All is well (maybe!)\n";
     return 0;
 }
